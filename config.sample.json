@@ -1,6 +1,7 @@
 {
+    "version": 1.0,
     "executable": {
-        "path": "/home/acryl/waves-all-0.15.4.jar",
+        "path": "/home/acryl/waves.jar",
         "environment": {
             "_JAVA_OPTIONS": "-Xmx4g"
         },
@@ -21,12 +22,12 @@
             "name": "waves.jar"
         },
         "miner-config": {
-            "url": "https://github.com/wavesplatform/Waves/releases/download/v0.15.4/waves-all-0.15.4.jar",
+            "url": "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/acryl_default.conf",
             "save_path": "/home/acryl",
-            "name": "waves.jar"
+            "name": "acryl.conf"
         },
         "node-service-config": {
-            "url": "https://github.com/wavesplatform/Waves/releases/download/v0.15.4/waves-all-0.15.4.jar",
+            "url": "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/config.sample.json",
             "save_path": "/home/acryl",
             "name": "config.json"
         }
