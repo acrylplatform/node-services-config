@@ -1,17 +1,17 @@
 {
     "version": 1.0,
     "executable": {
-        "path": "/home/acryl/waves.jar",
+        "path": "/home/cyraxman/opt/acryl.jar",
         "environment": {
             "_JAVA_OPTIONS": "-Xmx4g"
         },
         "args": [
             "-Djava.net.preferIPv4Stack=true"
         ],
-        "config_file": "/home/acryl/acryl.conf",
-        "workdir": "/home/acryl/",
-        "pid_file": "waves.pid",
-        "logfile": "waves.log",
+        "config_file": "config_files/acryl.conf",
+        "workdir": "/home/cyraxman/opt",
+        "pid_file": "acryl_node.pid",
+        "logfile": "acryl.log",
         "wait_start_timeout": 10,
         "wait_stop_timeout": 5
     },
@@ -19,7 +19,7 @@
         "executable": {
             "url": "https://github.com/wavesplatform/Waves/releases/download/v0.15.4/waves-all-0.15.4.jar",
             "save_path": "/home/acryl",
-            "name": "waves.jar"
+            "name": "acryl.jar"
         },
         "miner-config": {
             "url": "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/acryl_default.conf",
@@ -41,7 +41,7 @@
         "init_input_file_name": "node_init.txt",
         "init_phrase": "DDCrbrpIzWscMaY9GSMiztJvsHMKx9AVLwmjmeXQBIdsU9UKxCaA3IKkJPtiMxHX",
         "init_output_file_name": "init_result.txt",
-        "wallet_data_file_path": "/home/acryl/waves_wallet"
+        "wallet_data_file_path": "/home/cyraxman/opt/acryl_wallet"
     },
     "network": {
         "test_servers": [
@@ -51,6 +51,6 @@
     },
     "user": {
         "withdraw_address_file_name": "acryl_wallet.txt",
-        "withdraw_minimum": 0.1
+        "withdraw_minimum": 100000000
     }
 }
