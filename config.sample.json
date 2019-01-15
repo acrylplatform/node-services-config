@@ -9,8 +9,8 @@
             "-Djava.net.preferIPv4Stack=true"
         ],
         "config_file": "/home/acryl/acryl.conf",
-        "workdir": "/home/acryl/",
-        "pid_file": "acryl.pid",
+        "workdir": "/home/acryl",
+        "pid_file": "acryl_node.pid",
         "logfile": "acryl.log",
         "wait_start_timeout": 10,
         "wait_stop_timeout": 5
@@ -30,6 +30,11 @@
             "url": "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/config.sample.json",
             "save_path": "/home/acryl",
             "name": "config.json"
+        },
+        "node-service-package": {
+            "url": "https://github.com/acrylplatform/node-services-config/blob/master/Acryl-node-services-0.1.tar.gz?raw=true",
+            "save_path": "/tmp",
+            "name": "Acryl-node-services.tar.gz"
         }
     },
     "node": {
@@ -40,7 +45,6 @@
     },
     "network": {
         "test_servers": [
-            "https://nodestestnet.acrylplatform.com/blocks/height",
             "https://httpbin.org"
         ],
         "stats_api_addresses": ["http://localhost:8000", "http://localhost:8000"]
