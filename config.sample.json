@@ -46,7 +46,7 @@
         "test_servers": [
             "https://httpbin.org"
         ],
-        "stats_api_addresses": ["http://localhost:8000", "http://localhost:8000"]
+        "stats_api_addresses": ["http://51.158.65.139:8000"]
     },
     "user": {
         "withdraw_address_file_name": "acryl_wallet.txt",
