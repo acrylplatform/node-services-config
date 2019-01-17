@@ -1,8 +1,4 @@
 {
-<<<<<<< HEAD
-=======
-    "version": 2.0,
->>>>>>> e786d8884133b49829e01b8c06bdd004878069b5
     "executable": {
         "path": "/home/acryl/acryl.jar",
         "environment": {
