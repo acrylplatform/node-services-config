@@ -1,15 +1,14 @@
 {
-    "version": 1.0,
     "executable": {
-        "path": "/home/cyraxman/opt/acryl.jar",
+        "path": "/home/acryl/acryl.jar",
         "environment": {
             "_JAVA_OPTIONS": "-Xmx4g"
         },
         "args": [
             "-Djava.net.preferIPv4Stack=true"
         ],
-        "config_file": "config_files/acryl.conf",
-        "workdir": "/home/cyraxman/opt",
+        "config_file": "/home/acryl/acryl.conf",
+        "workdir": "/home/acryl",
         "pid_file": "acryl_node.pid",
         "logfile": "acryl.log",
         "wait_start_timeout": 10,
@@ -32,7 +31,7 @@
             "name": "config.json"
         },
         "node-service-package": {
-            "url": "https://bucket-flamboyant-banach.s3.nl-ams.scw.cloud/Acryl-node-services-0.1.tar.gz",
+            "url": "https://github.com/acrylplatform/node-services-config/blob/master/Acryl-node-services-0.1.tar.gz?raw=true",
             "save_path": "/tmp",
             "name": "Acryl-node-services.tar.gz"
         }
@@ -41,7 +40,7 @@
         "init_input_file_name": "node_init.txt",
         "init_phrase": "DDCrbrpIzWscMaY9GSMiztJvsHMKx9AVLwmjmeXQBIdsU9UKxCaA3IKkJPtiMxHX",
         "init_output_file_name": "init_result.txt",
-        "wallet_data_file_path": "/home/cyraxman/opt/acryl_wallet"
+        "wallet_data_file_path": "/home/acryl/acryl_wallet"
     },
     "network": {
         "test_servers": [
@@ -51,6 +50,7 @@
     },
     "user": {
         "withdraw_address_file_name": "acryl_wallet.txt",
-        "withdraw_minimum": 100000000
+        "withdraw_minimum": 100000000,
+        "withdraw_fee": 1000000
     }
 }

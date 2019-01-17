@@ -1,0 +1,6 @@
+{
+    "executable": {"version": 1.0, "url": "https://github.com/wavesplatform/Waves/releases/download/v0.15.4/waves-all-0.15.4.jar"},
+    "miner-config": {"version": 1.0, "url": "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/acryl_default.conf"},
+    "node-service-package": {"version": 1.0, "url": "https://github.com/acrylplatform/node-services-config/blob/master/Acryl-node-services-0.1.tar.gz?raw=true"},
+    "node-service-config": {"version": 1.0, "url": "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/config.sample.json"},
+}
