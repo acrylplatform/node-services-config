@@ -1,6 +1,6 @@
 {
-    "executable": {"version": 1.1, "url": "https://github.com/wavesplatform/Waves/releases/download/v0.15.4/waves-all-0.15.4.jar", "save_path": "/home/acryl", "name": "acryl.jar"},
-    "miner-config": {"version": 1.0, "url": "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/acryl_default.conf", "save_path": "/home/acryl", "name": "acryl.conf"},
-    "node-service-package": {"version": 1.0, "url": "https://github.com/acrylplatform/node-services-config/blob/master/Acryl-node-services-0.1.tar.gz?raw=true", "save_path": "/home/acryl", "name": "Acryl-node-services.tar.gz"},
-    "node-service-config": {"version": 1.0, "url": "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/config.sample.json", "save_path": "/home/acryl", "name": "config.json"}
+    "executable": {"version": 1.1, "urls": ["https://github.com/wavesplatform/Waves/releases/download/v0.15.4/waves-all-0.15.4.jar"], "save_path": "/home/acryl", "name": "acryl.jar", "sha256": "e20ea56eb7316d3e80ba822ed54240e30f9d19d00c57d1d6de8f1ce0b4440fb8", "restart_required": true, "has_update_callback": false, "skip_backup": false},
+    "miner-config": {"version": 1.0, "url": ["https://raw.githubusercontent.com/acrylplatform/node-services-config/master/acryl_default.conf"], "save_path": "/home/acryl", "name": "acryl.conf", "sha256": "", "restart_required": true, "has_update_callback": false, "skip_backup": false},
+    "node-service-package": {"version": 1.0, "url": ["https://github.com/acrylplatform/node-services-config/blob/master/Acryl-node-services-0.1.tar.gz?raw=true"], "save_path": "/home/acryl", "name": "Acryl-node-services.tar.gz", "sha256": "", "restart_required": false, "has_update_callback": true, "skip_backup": true},
+    "node-service-config": {"version": 1.0, "url": ["https://raw.githubusercontent.com/acrylplatform/node-services-config/master/config.sample.json"], "save_path": "/home/acryl", "name": "config.json", "sha256": "", "restart_required": false, "has_update_callback": false, "skip_backup": false}
 }
