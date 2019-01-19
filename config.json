@@ -1,4 +1,9 @@
 {
+    "node-services": {
+        "basedir": "/home/acryl",
+        "user": "acryl",
+        "group": "acryl"
+    },  
     "executable": {
         "path": "/home/acryl/acryl.jar",
         "environment": {
@@ -12,7 +17,8 @@
         "pid_file": "acryl_node.pid",
         "logfile": "acryl.log",
         "wait_start_timeout": 10,
-        "wait_stop_timeout": 5
+        "wait_stop_timeout": 5,
+        "data_path": "/home/acryl/acryl"
     },
     "updates": {
         "versions_files": ["https://raw.githubusercontent.com/acrylplatform/node-services-config/master/versions.json"]
@@ -24,6 +30,11 @@
         "wallet_data_file_path": "/home/acryl/acryl_wallet"
     },
     "network": {
+        "node": {
+            "address": "https://testnode123.mypsm.org",
+            "chain": "mainnet",
+            "chain_id": "K"
+        },
         "test_servers": [
             "https://httpbin.org"
         ],
@@ -33,5 +44,17 @@
         "withdraw_address_file_name": "acryl_wallet.txt",
         "withdraw_minimum": 100000000,
         "withdraw_fee": 1000000
+    },
+    "cron": {
+                "jobs": [
+                "*/3 * * * * cd /home/acryl && su acryl -c 'node-services check_service' 2>&1 | /usr/bin/logger -t acryl",
+                "0 1 * * * cd /home/acryl && su acryl -c 'node-services withdraw_acryl' 2>&1 | /usr/bin/logger -t acryl",
+                "0 * * * * cd /home/acryl && node-services update 2>&1 | /usr/bin/logger -t acryl",
+                "*/2 * * * * cd /home/acryl && su acryl -c 'node-services info' 2>&1 | /usr/bin/logger -t acryl",
+                "@reboot cd /home/acryl && su acryl -c 'node-services check_service' 2>&1 | /usr/bin/logger -t acryl",
+                "@reboot cd /home/acryl && su acryl -c 'node-services info' 2>&1 | /usr/bin/logger -t acryl",
+                "@reboot cd /home/acryl && node-services update 2>&1 | /usr/bin/logger -t acryl"
+            ],
+        "crontab_file_path": "/usr/share/acryl/crontab_file"
     }
 }
