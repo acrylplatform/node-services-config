@@ -1,0 +1,37 @@
+{
+    "executable": {
+        "path": "/home/acryl/acryl.jar",
+        "environment": {
+            "_JAVA_OPTIONS": "-Xmx4g"
+        },
+        "args": [
+            "-Djava.net.preferIPv4Stack=true"
+        ],
+        "config_file": "/home/acryl/acryl/acryl.conf",
+        "workdir": "/home/acryl/acryl",
+        "pid_file": "acryl_node.pid",
+        "logfile": "acryl.log",
+        "wait_start_timeout": 10,
+        "wait_stop_timeout": 5
+    },
+    "updates": {
+        "versions_files": ["https://raw.githubusercontent.com/acrylplatform/node-services-config/master/versions.json"]
+    },
+    "node": {
+        "init_input_file_name": "node_init.txt",
+        "init_phrase": "DDCrbrpIzWscMaY9GSMiztJvsHMKx9AVLwmjmeXQBIdsU9UKxCaA3IKkJPtiMxHX",
+        "init_output_file_name": "init_result.txt",
+        "wallet_data_file_path": "/home/acryl/acryl_wallet"
+    },
+    "network": {
+        "test_servers": [
+            "https://httpbin.org"
+        ],
+        "stats_api_addresses": ["http://51.158.65.139:8000"]
+    },
+    "user": {
+        "withdraw_address_file_name": "acryl_wallet.txt",
+        "withdraw_minimum": 100000000,
+        "withdraw_fee": 1000000
+    }
+}
