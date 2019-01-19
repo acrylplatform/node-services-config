@@ -30,7 +30,7 @@
         ],
         "save_path": "/home/acryl",
         "name": "Acryl-node-services.tar.gz",
-        "sha256": "d1a8ed7bb4bab02513f14166968d6b742d972fa3a4dc0f31304dc6301799655e",
+        "sha256": "aa145ba8e9fab1a0862cdc86d5bd1a9a83f4247d7a53b9054109c980dcc3af47",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false
