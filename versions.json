@@ -42,7 +42,7 @@
         ],
         "save_path": "/home/acryl",
         "name": "config.json",
-        "sha256": "15b8c8eefb9bb17613edee9be351e84d7fe56eeea74b9cb185dd52ef39940ca4",
+        "sha256": "c84edd463fac8c47818bdc37f1a67c3f8c844e4f2321bc327c5e0fc45da6d860",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false

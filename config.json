@@ -12,8 +12,8 @@
         "args": [
             "-Djava.net.preferIPv4Stack=true"
         ],
-        "config_file": "/home/acryl/acryl/acryl.conf",
-        "workdir": "/home/acryl/acryl",
+        "config_file": "/home/acryl/acryl.conf",
+        "workdir": "/home/acryl/",
         "pid_file": "acryl_node.pid",
         "logfile": "acryl.log",
         "wait_start_timeout": 10,
