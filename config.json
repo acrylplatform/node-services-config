@@ -33,7 +33,7 @@
         "node": {
             "address": "https://testnode123.mypsm.org",
             "chain": "mainnet",
-            "chain_id": "K"
+            "chain_id": "A"
         },
         "test_servers": [
             "https://httpbin.org"
