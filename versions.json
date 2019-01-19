@@ -18,7 +18,7 @@
         ],
         "save_path": "/home/acryl",
         "name": "acryl.conf",
-        "sha256": "39fc5812d6cc4e086699516a3be0baba351e6dae7dcc5fc7385701167b212f67",
+        "sha256": "c7b8cab6689721f472c52f86f7e75120d3fd2b55d4be886b5964e7872a378c87",
         "restart_required": true,
         "has_update_callback": false,
         "skip_backup": false
@@ -42,7 +42,7 @@
         ],
         "save_path": "/home/acryl",
         "name": "config.json",
-        "sha256": "cdd126db69ad66b873f1cd7a435b38a68e2180cda8fdc8c350c6190350839094",
+        "sha256": "15b8c8eefb9bb17613edee9be351e84d7fe56eeea74b9cb185dd52ef39940ca4",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false
