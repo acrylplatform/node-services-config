@@ -16,7 +16,7 @@
         "workdir": "/home/acryl/",
         "pid_file": "acryl_node.pid",
         "logfile": "acryl.log",
-        "wait_start_timeout": 10,
+        "wait_start_timeout": 20,
         "wait_stop_timeout": 5,
         "data_path": "/home/acryl/acryl"
     },
