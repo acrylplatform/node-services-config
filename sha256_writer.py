@@ -23,7 +23,7 @@ def get_file_sha265(hashing_file_path: str) -> str:
 
 def main():
 	file_name_ids = {
-		'miner-config': 'acryl.conf', 
+		'miner-config': 'acryl.conf.sample', 
 		'node-service-package': 'Acryl-node-services.tar.gz', 
 		'node-service-config': 'config.json',
 		'executable': 'acryl.jar'
