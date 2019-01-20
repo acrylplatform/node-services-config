@@ -4,7 +4,7 @@
         "urls": [
             "https://github.com/acrylplatform/node-services-config/blob/master/acryl.jar?raw=true"
         ],
-        "save_path": "/home/acryl/acryl",
+        "save_path": "/home/acryl",
         "name": "acryl.jar",
         "sha256": "e20ea56eb7316d3e80ba822ed54240e30f9d19d00c57d1d6de8f1ce0b4440fb8",
         "restart_required": true,
