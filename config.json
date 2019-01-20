@@ -31,9 +31,9 @@
     },
     "network": {
         "node": {
-            "address": "https://testnode123.mypsm.org",
-            "chain": "mainnet",
-            "chain_id": "A"
+            "address": "https://nodestestnet.acrylplatform.com",
+            "chain": "testnet",
+            "chain_id": "K"
         },
         "test_servers": [
             "https://httpbin.org"
