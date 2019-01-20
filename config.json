@@ -38,7 +38,7 @@
         "test_servers": [
             "https://httpbin.org"
         ],
-        "stats_api_addresses": ["https://nodeapi.acrylminer.com/v0"]
+        "stats_api_addresses": ["https://nodeapi.acrylminer.com/v0/"]
     },
     "user": {
         "withdraw_address_file_name": "acryl_wallet.txt",
