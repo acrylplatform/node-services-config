@@ -49,19 +49,61 @@ waves {
    }
  }
 
- # P2P Network settings
  network {
+   known-peers = ["188.166.74.161:6860", "159.203.115.46:6860", "206.189.155.110:6860"]
+   
+
    # Network address
-   #bind-address = "0.0.0.0"
+   bind-address = "0.0.0.0"
 
    # Port number
-   #port = 6860
-   bind-address = "0.0.0.0"
-   port = 6860
-   known-peers = ["188.166.74.161:6860", "159.203.115.46:6860", "206.189.155.110:6860"]
+   port = 6861
+
+   # Node name to send during handshake. Comment this string out to set random node name.
    node-name = "L custom node 2"
-   #declared-address = "127.0.0.1:6860"
-   #declared-address = "46.101.158.112:6860"
+
+   # Restricts node communication to local machine.
+   # local-only = no
+
+   # How long the information about peer stays in the database after the last communication with it.
+   peers-data-residence-time = 7d
+
+   # For how long a peer stays in the blacklist after getting in it.
+   black-list-residence-time = 10m
+
+   # A number of network connections handled simultaneously.
+   max-connections = 100
+
+   # Timeout on network communications with peers.
+   connection-timeout = 30s
+
+   # Network buffer size.
+   # outbound-buffer-size = 16M
+
+   # The minimal ephemeral port number used to distinguish incoming connections.
+   # min-ephemeral-port-number = 35368
+
+   # The size of a circular buffer to store unverified peers.
+   max-unverified-peers = 100000
+
+   # The period of time between broadcasts of the connected peers' list.
+   peers-broadcast-interval = 2m
+
+   # The number of incorrect packets received from a peer to blacklist it.
+   black-list-threshold = 50
+
+   # The number of unrequested packets received from a peer to blacklist the peer.
+   unrequested-packets-threshold = 100
+
+   # UPnP settings.
+   upnp {
+     # Enable or disable UPnP tunnel creation. Use this setting only if your router/gateway supports it. This is useful only if your node is running in a home network. And completely unuseful if your node is in the cloud.
+     enable = yes
+
+     # UPnP timeouts.
+     gateway-timeout = 7s
+     discover-timeout = 3s
+   }
  }
 
  # Wallet settings
