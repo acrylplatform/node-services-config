@@ -1,6 +1,6 @@
 {
     "executable": {
-        "version": 1.3,
+        "version": 1.4,
         "urls": [
             "https://github.com/acrylplatform/node-services-config/blob/master/acryl.jar?raw=true"
         ],
