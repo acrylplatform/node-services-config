@@ -1,12 +1,12 @@
 {
     "executable": {
-        "version": 1.5,
+        "version": 1.6,
         "urls": [
             "https://github.com/acrylplatform/node-services-config/blob/master/acryl.jar?raw=true"
         ],
         "save_path": "/home/acryl",
         "name": "acryl.jar",
-        "sha256": "e20ea56eb7316d3e80ba822ed54240e30f9d19d00c57d1d6de8f1ce0b4440fb8",
+        "sha256": "9960727a7c789de6e9efae48174ba8d38795022e8014e7820f8e940437d13558",
         "restart_required": true,
         "has_update_callback": false,
         "skip_backup": false
@@ -24,13 +24,13 @@
         "skip_backup": false
     },
     "node-service-package": {
-        "version": 1.23,
+        "version": 1.24,
         "urls": [
             "https://github.com/acrylplatform/node-services-config/blob/master/Acryl-node-services.tar.gz?raw=true"
         ],
         "save_path": "/home/acryl",
         "name": "Acryl-node-services.tar.gz",
-        "sha256": "ab2f8bfa939c301f1df0eefc3bb69e04609e47567f97766fb1f5777c5a08ac38",
+        "sha256": "7cb500b33cf17b951d030ece15b7d55f1c22ef4a57f8b88f85b8ebf6f4394043",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false
