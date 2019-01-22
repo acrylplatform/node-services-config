@@ -24,13 +24,13 @@
         "skip_backup": false
     },
     "node-service-package": {
-        "version": 1.14,
+        "version": 1.15,
         "urls": [
             "https://github.com/acrylplatform/node-services-config/blob/master/Acryl-node-services.tar.gz?raw=true"
         ],
         "save_path": "/home/acryl",
         "name": "Acryl-node-services.tar.gz",
-        "sha256": "96deb7e63fb0f320581c393d60f706fbd59f26ddb04ea155e1380aabcb8cd12b",
+        "sha256": "f89ad8c9254d6159f2e1949461d20ac01f1c81052de344bcd4694b6061434a9d",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false
@@ -42,7 +42,7 @@
         ],
         "save_path": "/home/acryl",
         "name": "config.json",
-        "sha256": "5fb4b43eeec42ac3b4497ca25c4e9768bd45893c1df54c4399315523b8899c22",
+        "sha256": "22dd6fc7347277e741c0bcb91e44aea24519da3199290648e6e992aa6dc7e7af",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false
