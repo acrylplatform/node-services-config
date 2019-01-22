@@ -36,7 +36,7 @@
         "skip_backup": false
     },
     "node-service-config": {
-        "version": 1.11,
+        "version": 1.12,
         "urls": [
             "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/config.json"
         ],
