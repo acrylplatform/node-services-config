@@ -32,9 +32,9 @@
     },
     "network": {
         "node": {
-            "address": "https://nodestestnet.acrylplatform.com",
-            "chain": "testnet",
-            "chain_id": "K"
+            "address": "https://nodes.acrylplatform.com",
+            "chain": "mainnet",
+            "chain_id": "A"
         },
         "test_servers": [
             "https://httpbin.org"
