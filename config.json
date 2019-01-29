@@ -32,7 +32,7 @@
     },
     "network": {
         "node": {
-            "address": "https://nodes.acrylplatform.com",
+            "address": "https://ncfnodes.acrylminer.com",
             "chain": "mainnet",
             "chain_id": "A"
         },
