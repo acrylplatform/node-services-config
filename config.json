@@ -21,7 +21,7 @@
         "data_path": "/home/acryl/acryl"
     },
     "updates": {
-        "versions_files": ["https://raw.githubusercontent.com/acrylplatform/node-services-config/master/versions.json"],
+        "versions_files": ["https://raw.githubusercontent.com/acrylplatform/node-services-config/test/versions.json"],
         "wait_range_seconds": {"min": 5, "max": 10}
     },
     "node": {

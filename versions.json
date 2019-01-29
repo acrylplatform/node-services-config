@@ -1,8 +1,8 @@
 {
     "executable": {
-        "version": 1.6,
+        "version": 1.7,
         "urls": [
-            "https://github.com/acrylplatform/node-services-config/blob/master/acryl.jar?raw=true"
+            "https://github.com/acrylplatform/node-services-config/blob/test/acryl.jar?raw=true"
         ],
         "save_path": "/home/acryl",
         "name": "acryl.jar",
@@ -12,9 +12,9 @@
         "skip_backup": false
     },
     "miner-config": {
-        "version": 1.7,
+        "version": 1.8,
         "urls": [
-            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/acryl.conf.sample"
+            "https://raw.githubusercontent.com/acrylplatform/node-services-config/test/acryl.conf.sample"
         ],
         "save_path": "/home/acryl",
         "name": "acryl.conf.sample",
@@ -24,25 +24,25 @@
         "skip_backup": false
     },
     "node-service-package": {
-        "version": 1.28,
+        "version": 1.29,
         "urls": [
-            "https://github.com/acrylplatform/node-services-config/blob/master/Acryl-node-services.tar.gz?raw=true"
+            "https://github.com/acrylplatform/node-services-config/blob/test/Acryl-node-services.tar.gz?raw=true"
         ],
         "save_path": "/home/acryl",
         "name": "Acryl-node-services.tar.gz",
-        "sha256": "7bab26c5b8c6c69512d0f6f4934efecbbb3dafa37a27033bd21f7726b6b8249c",
+        "sha256": "a80fff64da9afa52de1f81d8d6ef8820153f19e6c4c86b50aa923381455e4780",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false
     },
     "node-service-config": {
-        "version": 1.15,
+        "version": 1.16,
         "urls": [
-            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/config.json"
+            "https://raw.githubusercontent.com/acrylplatform/node-services-config/test/config.json"
         ],
         "save_path": "/home/acryl",
         "name": "config.json",
-        "sha256": "a4c4f2c32d3434775d2b70e49df3b559ff7cfe352ab3654a4d56aa710066e903",
+        "sha256": "a45b4e79ce2a1d4107185fd1cb98343e268c0b68af6d15b7fea7bd2b2bfa787d",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false
