@@ -48,7 +48,7 @@
     },
     "user": {
         "withdraw_address_file_name": "acryl_wallet.txt",
-        "withdraw_minimum": 100000000,
+        "withdraw_minimum": 10000000,
         "withdraw_fee": 100000
     },
     "cron": {
