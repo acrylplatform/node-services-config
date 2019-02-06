@@ -1,6 +1,6 @@
 {
     "executable": {
-        "version": 2,
+        "version": 4,
         "urls": [
             "https://github.com/acrylplatform/node-services-config/blob/test/acryl.jar?raw=true"
         ],
@@ -12,7 +12,7 @@
         "skip_backup": false
     },
     "miner-config": {
-        "version": 2,
+        "version": 4,
         "urls": [
             "https://raw.githubusercontent.com/acrylplatform/node-services-config/test/acryl.conf.sample"
         ],
@@ -24,19 +24,19 @@
         "skip_backup": false
     },
     "node-service-package": {
-        "version": 2,
+        "version": 4,
         "urls": [
             "https://github.com/acrylplatform/node-services-config/blob/test/Acryl-node-services.tar.gz?raw=true"
         ],
         "save_path": "/home/acryl",
         "name": "Acryl-node-services.tar.gz",
-        "sha256": "ab2bdff21c75574dd291d2b2c658235e7608710c7bedb8f960889c34ad4bd30d",
+        "sha256": "c1f9d37ddb3d5078c93de75253545003adf94daf72eb9dc8d987446aad69046a",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false
     },
     "node-service-config": {
-        "version": 2,
+        "version": 4,
         "urls": [
             "https://raw.githubusercontent.com/acrylplatform/node-services-config/test/config.json"
         ],
