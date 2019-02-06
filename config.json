@@ -10,7 +10,8 @@
             "_JAVA_OPTIONS": "-Xmx4g"
         },
         "args": [
-            "-Djava.net.preferIPv4Stack=true"
+            "-Djava.net.preferIPv4Stack=true",
+            "-Dlogback.configurationFile=/home/acryl/logback.xml"
         ],
         "config_file": "/home/acryl/acryl.conf",
         "workdir": "/home/acryl/",
