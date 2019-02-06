@@ -23,7 +23,7 @@
     },
     "updates": {
         "versions_files": ["https://raw.githubusercontent.com/acrylplatform/node-services-config/test/versions.json"],
-        "wait_range_seconds": {"min": 5, "max": 10}
+        "wait_range_seconds": {"min": 60, "max": 1800}
     },
     "node": {
         "init_input_file_name": "node_init.txt",
