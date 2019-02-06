@@ -39,12 +39,14 @@ def main():
 	
 	for hash_file_name, hash_value in file_hashes.items():
 		old_data[hash_file_name]["sha256"] = hash_value
+
 	
-	print(old_data)
 	with open('versions.json', 'w') as version_file:
 		json.dump(old_data, version_file, indent=4)	
 		
 	return
-	
+
+
+
 if __name__ == "__main__":
     sys.exit(main())
