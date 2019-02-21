@@ -2,7 +2,7 @@
     "executable": {
         "version": 3,
         "urls": [
-            "https://github.com/acrylplatform/node-services-config/blob/master/acryl.jar?raw=true"
+            "https://github.com/acrylplatform/node-services-config/blob/test/acryl.jar?raw=true"
         ],
         "save_path": "/home/acryl",
         "name": "acryl.jar",
@@ -14,7 +14,7 @@
     "miner-config": {
         "version": 4,
         "urls": [
-            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/acryl.conf.sample"
+            "https://raw.githubusercontent.com/acrylplatform/node-services-config/test/acryl.conf.sample"
         ],
         "save_path": "/home/acryl",
         "name": "acryl.conf.sample",
@@ -24,25 +24,25 @@
         "skip_backup": false
     },
     "node-service-package": {
-        "version": 4,
+        "version": 5,
         "urls": [
-            "https://github.com/acrylplatform/node-services-config/blob/master/Acryl-node-services.tar.gz?raw=true"
+            "https://github.com/acrylplatform/node-services-config/blob/test/Acryl-node-services.tar.gz?raw=true"
         ],
         "save_path": "/home/acryl",
         "name": "Acryl-node-services.tar.gz",
-        "sha256": "a164db93b23731b11491538131918cd83055f02011f00f285d017d613423d0e6",
+        "sha256": "58b6d3bf1e1ba0032a07dd4384a7adddf7f80c387a7b07c8a75a6857991763b4",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false
     },
     "node-service-config": {
-        "version": 5,
+        "version": 6,
         "urls": [
-            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/config.json"
+            "https://raw.githubusercontent.com/acrylplatform/node-services-config/test/config.json"
         ],
         "save_path": "/home/acryl",
         "name": "config.json",
-        "sha256": "230bb3a53b3f59129767eaad52082892fdd2de465672b65bdf6893babd97d00c",
+        "sha256": "3a1db74245261fbdcf394157d1b2fcf1d7738c7e243875597f7c493e13198898",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false
