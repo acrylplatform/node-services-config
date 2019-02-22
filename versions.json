@@ -24,7 +24,7 @@
         "skip_backup": false
     },
     "node-service-package": {
-        "version": 5,
+        "version": 6,
         "urls": [
             "https://github.com/acrylplatform/node-services-config/blob/master/Acryl-node-services.tar.gz?raw=true"
         ],
@@ -36,7 +36,7 @@
         "skip_backup": false
     },
     "node-service-config": {
-        "version": 7,
+        "version": 8,
         "urls": [
             "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/config.json"
         ],
