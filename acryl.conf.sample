@@ -5,7 +5,7 @@ waves {
 
   max-cache-size = 100000
 
-  max-rollback-depth = 2000
+  max-rollback-depth = 5000
 
   remember-blocks-interval-in-cache = 3h
 

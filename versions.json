@@ -18,7 +18,7 @@
         ],
         "save_path": "/home/acryl",
         "name": "acryl.conf.sample",
-        "sha256": "1548b69ccefae6908acb55bdfae78b698309d2f9b1964ccf6e8801372ce594ed",
+        "sha256": "cb0989e6ae9247118088726a20a70326dd963ca331d8c285578cc6705d85291f",
         "restart_required": true,
         "has_update_callback": false,
         "skip_backup": false
@@ -36,7 +36,7 @@
         "skip_backup": false
     },
     "node-service-config": {
-        "version": 12,
+        "version": 13,
         "urls": [
             "https://raw.githubusercontent.com/acrylplatform/node-services-config/test/config.json"
         ],
