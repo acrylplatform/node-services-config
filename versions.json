@@ -2,7 +2,7 @@
     "executable": {
         "version": 3,
         "urls": [
-            "https://github.com/acrylplatform/node-services-config/blob/master/acryl.jar?raw=true"
+            "https://github.com/acrylplatform/node-services-config/blob/test/acryl.jar?raw=true"
         ],
         "save_path": "/home/acryl",
         "name": "acryl.jar",
@@ -14,7 +14,7 @@
     "miner-config": {
         "version": 8,
         "urls": [
-            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/acryl.conf.sample"
+            "https://raw.githubusercontent.com/acrylplatform/node-services-config/test/acryl.conf.sample"
         ],
         "save_path": "/home/acryl",
         "name": "acryl.conf.sample",
@@ -26,11 +26,11 @@
     "node-service-package": {
         "version": 22,
         "urls": [
-            "https://github.com/acrylplatform/node-services-config/blob/master/Acryl-node-services.tar.gz?raw=true"
+            "https://github.com/acrylplatform/node-services-config/blob/test/Acryl-node-services.tar.gz?raw=true"
         ],
         "save_path": "/home/acryl",
         "name": "Acryl-node-services.tar.gz",
-        "sha256": "7ccd63b0f59b79a62b491ccbe0dcfc4ef433ee0d12c6efbc543c00f69b920b77",
+        "sha256": "b34c42d0bdb44c3c7a2345dbb533d605536fa4c15aee8560ae7ad476f9cf46c7",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false
@@ -38,11 +38,11 @@
     "node-service-config": {
         "version": 14,
         "urls": [
-            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/config.json"
+            "https://raw.githubusercontent.com/acrylplatform/node-services-config/test/config.json"
         ],
         "save_path": "/home/acryl",
         "name": "config.json",
-        "sha256": "e03629e2c1d1da6203df1b70cbd6fe1c4cb168ba59f01e950a88ec45907e365b",
+        "sha256": "0b39145f37bba6020c8d60a74085f2dbffcc6642b89c52c704b42c794006de8b",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false
