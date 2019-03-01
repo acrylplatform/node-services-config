@@ -190,7 +190,7 @@ waves {
   synchronization {
 
     # How many blocks could be rolled back if fork is detected. If fork is longer than this rollback is impossible.
-    max-rollback = 5000
+    max-rollback = 100
 
     # I don't know
     # max-chain-length = 101
