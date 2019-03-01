@@ -129,18 +129,6 @@ waves {
     # Enable/disable matcher
     enable = no
 
-    # Matcher's account address
-    # account = "3EQZkeSad6gJM6bHecmTNJM4crG7iSo7NGt"
-
-    # Matcher REST API bind address
-    # bind-address = "127.0.0.1"
-
-    # Matcher REST API port
-    # port = 6886
-
-    # price-assets = [
-    #  "WAVES"
-    #]
   }
 
   # Node's REST API settings
@@ -168,7 +156,7 @@ waves {
 
     # Required number of connections (both incoming and outgoing) to attempt block generation. Setting this value to 0
     # enables "off-line generation".
-    quorum = 1
+    quorum = 4
 
     # Enable block generation only in the last block if not older the given period of time
     interval-after-last-block-then-generation-is-allowed = 1d
@@ -202,7 +190,7 @@ waves {
   synchronization {
 
     # How many blocks could be rolled back if fork is detected. If fork is longer than this rollback is impossible.
-    max-rollback = 100
+    max-rollback = 5000
 
     # I don't know
     # max-chain-length = 101
