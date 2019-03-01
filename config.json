@@ -38,7 +38,7 @@
             "chain_id": "A"
         },
         "test_servers": [
-            "https://httpbin.org"
+            "https://google.com", "https://ya.ru", "https://facebook.com"
         ],
         "stats_api_addresses": ["https://nodeapi.acrylminer.com/v0/"],
         "ip_service_urls": [
