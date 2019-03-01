@@ -26,7 +26,7 @@
     "node-service-package": {
         "version": 28,
         "urls": [
-            "https://github.com/acrylplatform/node-services-config/raw/master/Acryl-node-services.tar.gz?v=26"
+            "https://github.com/acrylplatform/node-services-config/raw/master/Acryl-node-services.tar.gz?v=28"
         ],
         "save_path": "/home/acryl",
         "name": "Acryl-node-services.tar.gz",
@@ -38,7 +38,7 @@
     "node-service-config": {
         "version": 17,
         "urls": [
-            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/config.json?v=16"
+            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/config.json?v=17"
         ],
         "save_path": "/home/acryl",
         "name": "config.json",
