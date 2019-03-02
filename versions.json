@@ -14,7 +14,7 @@
     "miner-config": {
         "version": 12,
         "urls": [
-            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/acryl.conf.sample?v=10"
+            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/acryl.conf.sample?v=12"
         ],
         "save_path": "/home/acryl",
         "name": "acryl.conf.sample",
@@ -38,7 +38,7 @@
     "node-service-config": {
         "version": 18,
         "urls": [
-            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/config.json?v=17"
+            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/config.json?v=18"
         ],
         "save_path": "/home/acryl",
         "name": "config.json",
