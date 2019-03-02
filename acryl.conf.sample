@@ -5,7 +5,7 @@ waves {
 
   max-cache-size = 100000
 
-  max-rollback-depth = 5000
+  max-rollback-depth = 20000
 
   remember-blocks-interval-in-cache = 3h
 
@@ -184,7 +184,7 @@ waves {
 
     # Required number of connections (both incoming and outgoing) to attempt block generation. Setting this value to 0
     # enables "off-line generation".
-    quorum = 4
+    quorum = 2
 
     # Enable block generation only in the last block if not older the given period of time
     interval-after-last-block-then-generation-is-allowed = 1d
