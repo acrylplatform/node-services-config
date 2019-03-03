@@ -22,6 +22,8 @@ waves {
       "178.128.103.99:6861"
       "159.65.144.50:6861"
       "104.248.45.157:6861"
+      "159.65.174.161:6861"
+      "134.209.24.159:6861"
     ]
 
     # Network address
@@ -184,7 +186,7 @@ waves {
 
     # Required number of connections (both incoming and outgoing) to attempt block generation. Setting this value to 0
     # enables "off-line generation".
-    quorum = 2
+    quorum = 4
 
     # Enable block generation only in the last block if not older the given period of time
     interval-after-last-block-then-generation-is-allowed = 1d
