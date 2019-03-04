@@ -38,7 +38,7 @@
     "node-service-config": {
         "version": 23,
         "urls": [
-            "https://raw.githubusercontent.com/acrylplatform/node-services-config/test/config.json?v=22"
+            "https://raw.githubusercontent.com/acrylplatform/node-services-config/test/config.json?v=23"
         ],
         "save_path": "/home/acryl",
         "name": "config.json",
