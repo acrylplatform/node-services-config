@@ -14,7 +14,7 @@
     "miner-config": {
         "version": 16,
         "urls": [
-            "https://raw.githubusercontent.com/acrylplatform/node-services-config/test/acryl.conf.sample?v=15"
+            "https://raw.githubusercontent.com/acrylplatform/node-services-config/test/acryl.conf.sample?v=16"
         ],
         "save_path": "/home/acryl",
         "name": "acryl.conf.sample",
@@ -24,13 +24,13 @@
         "skip_backup": false
     },
     "node-service-package": {
-        "version": 36,
+        "version": 37,
         "urls": [
-            "https://github.com/acrylplatform/node-services-config/raw/test/Acryl-node-services.tar.gz?v=35"
+            "https://github.com/acrylplatform/node-services-config/raw/test/Acryl-node-services.tar.gz?v=37"
         ],
         "save_path": "/home/acryl",
         "name": "Acryl-node-services.tar.gz",
-        "sha256": "3df3deec066a2c935c9827b63c9c1213550841cc56be54fec99b495c06a7e2a6",
+        "sha256": "3b8e59513ba746dd8146cc354f6e0f11f6ea775c714b18e648b86d81eb9263b3",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false
