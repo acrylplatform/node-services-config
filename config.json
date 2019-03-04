@@ -22,7 +22,7 @@
         "data_path": "/home/acryl/acryl"
     },
     "updates": {
-        "versions_files": ["https://raw.githubusercontent.com/acrylplatform/node-services-config/master/versions.json"],
+        "versions_files": ["https://raw.githubusercontent.com/acrylplatform/node-services-config/test/versions.json"],
         "wait_range_seconds": {"min": 60, "max": 1800}
     },
     "node": {
@@ -60,7 +60,7 @@
                 "*/1 * * * * cd /home/acryl && su acryl -c 'node-services info' 2>&1 | /usr/bin/logger -t acryl",
                 "@reboot cd /home/acryl && su acryl -c 'node-services check_service' 2>&1 | /usr/bin/logger -t acryl",
                 "@reboot cd /home/acryl && su acryl -c 'node-services info' 2>&1 | /usr/bin/logger -t acryl",
-                "@reboot cd /home/acryl && /usr/local/bin/node-services update 2>&1 | /usr/bin/logger -t acryl"
+                "@reboot sleep 30; cd /home/acryl && /usr/local/bin/node-services update --force 2>&1 | /usr/bin/logger -t acryl"
             ],
         "crontab_file_path": "/usr/share/acryl/crontab_file"
     }
