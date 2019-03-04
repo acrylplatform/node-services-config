@@ -12,33 +12,33 @@
         "skip_backup": false
     },
     "miner-config": {
-        "version": 15,
+        "version": 16,
         "urls": [
-            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/acryl.conf.sample?v=15"
+            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/acryl.conf.sample?v=16"
         ],
         "save_path": "/home/acryl",
         "name": "acryl.conf.sample",
-        "sha256": "83b07e1dee5f4b9def948a8dbb481816f95f6616a3bf122e466447c2520a1df9",
+        "sha256": "bb787b45ac882fa3702bb561f35eec87d1539181d8bcffa6a203a3767cab1929",
         "restart_required": true,
         "has_update_callback": false,
         "skip_backup": false
     },
     "node-service-package": {
-        "version": 33,
+        "version": 39,
         "urls": [
-            "https://github.com/acrylplatform/node-services-config/raw/master/Acryl-node-services.tar.gz?v=33"
+            "https://github.com/acrylplatform/node-services-config/raw/master/Acryl-node-services.tar.gz?v=39"
         ],
         "save_path": "/home/acryl",
         "name": "Acryl-node-services.tar.gz",
-        "sha256": "bb5f3966bb0c16e55250ece51734cf86927e44055abd6134dc788f04d16ab77f",
+        "sha256": "97085b8bf457584bf67905588df63e91fbd826b023ed7641bf6de767108d7ab4",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false
     },
     "node-service-config": {
-        "version": 22,
+        "version": 24,
         "urls": [
-            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/config.json?v=22"
+            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/config.json?v=24"
         ],
         "save_path": "/home/acryl",
         "name": "config.json",
