@@ -138,6 +138,8 @@ waves {
           8 = 0
         }
         double-features-periods-after-height = 0
+        max-transaction-time-back-offset = 120m
+        max-transaction-time-forward-offset = 90m
       }
 
       genesis {
