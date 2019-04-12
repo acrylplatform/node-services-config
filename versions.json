@@ -13,13 +13,13 @@
         "drop_blockchain": true
     },
     "miner-config": {
-        "version": 18,
+        "version": 19,
         "urls": [
-            "https://raw.githubusercontent.com/acrylplatform/node-services-config/test/acryl.conf.sample?v=18"
+            "https://raw.githubusercontent.com/acrylplatform/node-services-config/test/acryl.conf.sample?v=19"
         ],
         "save_path": "/home/acryl",
         "name": "acryl.conf.sample",
-        "sha256": "7a70f8563803895ef0441caa572f0f388b233dbe66859b27da7eaa0b513b84a8",
+        "sha256": "d838c7aa9d33cceaa482ee127adf9436b00e88f9cc7da30bb9e7e1c1551b5adb",
         "restart_required": true,
         "has_update_callback": false,
         "skip_backup": false,
