@@ -10,7 +10,7 @@
         "restart_required": true,
         "has_update_callback": false,
         "skip_backup": false,
-        "drop_blockchain": true
+        "drop_blockchain": 5
     },
     "miner-config": {
         "version": 19,
@@ -23,20 +23,20 @@
         "restart_required": true,
         "has_update_callback": false,
         "skip_backup": false,
-        "drop_blockchain": false
+        "drop_blockchain": 0
     },
     "node-service-package": {
-        "version": 47,
+        "version": 49,
         "urls": [
-            "https://github.com/acrylplatform/node-services-config/raw/test/Acryl-node-services.tar.gz?v=47"
+            "https://github.com/acrylplatform/node-services-config/raw/test/Acryl-node-services.tar.gz?v=49"
         ],
         "save_path": "/home/acryl",
         "name": "Acryl-node-services.tar.gz",
-        "sha256": "0f7ebc4d7ed107568be28815d34842ba9dd2944c2a6629a6c6ac6d15dddd8622",
+        "sha256": "00f45882eaec6db48e946572ad74b591274ee2a73770e38d0dc8389c1a27f9d5",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false,
-        "drop_blockchain": false
+        "drop_blockchain": 0
     },
     "node-service-config": {
         "version": 32,
@@ -49,6 +49,6 @@
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false,
-        "drop_blockchain": false
+        "drop_blockchain": 0
     }
 }
