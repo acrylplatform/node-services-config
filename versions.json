@@ -13,9 +13,9 @@
         "drop_blockchain": 5
     },
     "miner-config": {
-        "version": 19,
+        "version": 20,
         "urls": [
-            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/acryl.conf.sample?v=19"
+            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/acryl.conf.sample?v=20"
         ],
         "save_path": "/home/acryl",
         "name": "acryl.conf.sample",
@@ -39,9 +39,9 @@
         "drop_blockchain": 0
     },
     "node-service-config": {
-        "version": 33,
+        "version": 34,
         "urls": [
-            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/config.json?v=33"
+            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/config.json?v=34"
         ],
         "save_path": "/home/acryl",
         "name": "config.json",
