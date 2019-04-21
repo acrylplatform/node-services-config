@@ -2,7 +2,7 @@
     "executable": {
         "version": 7,
         "urls": [
-            "https://github.com/acrylplatform/node-services-config/raw/master/acryl.jar?v=6"
+            "https://github.com/acrylplatform/node-services-config/raw/master/acryl.jar?v=7"
         ],
         "save_path": "/home/acryl",
         "name": "acryl.jar",
@@ -10,7 +10,7 @@
         "restart_required": true,
         "has_update_callback": false,
         "skip_backup": false,
-        "drop_blockchain": 5
+        "drop_blockchain": 7
     },
     "miner-config": {
         "version": 20,
@@ -26,22 +26,22 @@
         "drop_blockchain": 0
     },
     "node-service-package": {
-        "version": 60,
+        "version": 64,
         "urls": [
-            "https://github.com/acrylplatform/node-services-config/raw/master/Acryl-node-services.tar.gz?v=60"
+            "https://github.com/acrylplatform/node-services-config/raw/master/Acryl-node-services.tar.gz?v=64"
         ],
         "save_path": "/home/acryl",
         "name": "Acryl-node-services.tar.gz",
-        "sha256": "7f53553b77aab26a9ecdddae26f7372c509b387e7b790333eb687f696988a651",
+        "sha256": "ac53e9d3ef08fb00ed4d4bd42a47934622bfde2cd29371e85fe78e2fe36450f5",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false,
         "drop_blockchain": 0
     },
     "node-service-config": {
-        "version": 36,
+        "version": 38,
         "urls": [
-            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/config.json?v=36"
+            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/config.json?v=37"
         ],
         "save_path": "/home/acryl",
         "name": "config.json",
