@@ -10,7 +10,7 @@
         "restart_required": true,
         "has_update_callback": false,
         "skip_backup": false,
-        "drop_blockchain": 8
+        "drop_blockchain": 7
     },
     "miner-config": {
         "version": 20,
@@ -39,13 +39,13 @@
         "drop_blockchain": 0
     },
     "node-service-config": {
-        "version": 39,
+        "version": 40,
         "urls": [
-            "https://raw.githubusercontent.com/acrylplatform/node-services-config/test/config.json?v=37"
+            "https://raw.githubusercontent.com/acrylplatform/node-services-config/test/config.json?v=40"
         ],
         "save_path": "/home/acryl",
         "name": "config.json",
-        "sha256": "3ecffd7d3dd86a3f9ad69f8d7e9968d1ccb43da4055f351ac631656fabbbdd37",
+        "sha256": "14136c2a06899493081e657c583da50119ced98bb0d695286ff5d1d362582c84",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false,
