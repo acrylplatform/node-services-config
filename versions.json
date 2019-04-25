@@ -26,7 +26,7 @@
         "drop_blockchain": 0
     },
     "node-service-package": {
-        "version": 66,
+        "version": 67,
         "urls": [
             "https://github.com/acrylplatform/node-services-config/raw/test/Acryl-node-services.tar.gz?v=66"
         ],
