@@ -1,8 +1,8 @@
 {
     "executable": {
-        "version": 7,
+        "version": 8,
         "urls": [
-            "https://github.com/acrylplatform/node-services-config/raw/master/acryl.jar?v=7"
+            "https://github.com/acrylplatform/node-services-config/raw/test/acryl.jar?v=8"
         ],
         "save_path": "/home/acryl",
         "name": "acryl.jar",
@@ -15,7 +15,7 @@
     "miner-config": {
         "version": 20,
         "urls": [
-            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/acryl.conf.sample?v=20"
+            "https://raw.githubusercontent.com/acrylplatform/node-services-config/test/acryl.conf.sample?v=20"
         ],
         "save_path": "/home/acryl",
         "name": "acryl.conf.sample",
@@ -26,26 +26,26 @@
         "drop_blockchain": 0
     },
     "node-service-package": {
-        "version": 69,
+        "version": 70,
         "urls": [
-            "https://github.com/acrylplatform/node-services-config/raw/master/Acryl-node-services.tar.gz?v=69"
+            "https://github.com/acrylplatform/node-services-config/raw/test/Acryl-node-services.tar.gz?v=70"
         ],
         "save_path": "/home/acryl",
         "name": "Acryl-node-services.tar.gz",
-        "sha256": "605378f7a06560d97d8b5f8f3a88ec75a6e47cf4f644f38ae03468afd2286bd6",
+        "sha256": "004f3b142207b3ab5bb4846babe21e9f7efff37859496200eeef46117e98281f",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false,
         "drop_blockchain": 0
     },
     "node-service-config": {
-        "version": 41,
+        "version": 42,
         "urls": [
-            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/config.json?v=40"
+            "https://raw.githubusercontent.com/acrylplatform/node-services-config/test/config.json?v=42"
         ],
         "save_path": "/home/acryl",
         "name": "config.json",
-        "sha256": "14136c2a06899493081e657c583da50119ced98bb0d695286ff5d1d362582c84",
+        "sha256": "3ecffd7d3dd86a3f9ad69f8d7e9968d1ccb43da4055f351ac631656fabbbdd37",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false,
