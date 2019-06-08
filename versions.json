@@ -1,8 +1,8 @@
 {
     "executable": {
-        "version": 8,
+        "version": 9,
         "urls": [
-            "https://github.com/acrylplatform/node-services-config/raw/test/acryl.jar?v=8"
+            "https://github.com/acrylplatform/node-services-config/raw/test/acryl.jar?v=9"
         ],
         "save_path": "/home/acryl",
         "name": "acryl.jar",
@@ -10,7 +10,7 @@
         "restart_required": true,
         "has_update_callback": false,
         "skip_backup": false,
-        "drop_blockchain": 8
+        "drop_blockchain": 9
     },
     "miner-config": {
         "version": 20,
