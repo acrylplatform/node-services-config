@@ -2,6 +2,7 @@ import hashlib
 import json
 import sys
 
+
 def get_file_sha265(hashing_file_path: str) -> str:
 	"""
 	Compare SHA256
@@ -21,6 +22,7 @@ def get_file_sha265(hashing_file_path: str) -> str:
 	hash_digest = hash_.hexdigest()
 	return hash_digest
 
+
 def main():
 	file_name_ids = {
 		'miner-config': 'acryl.conf.sample', 
@@ -39,7 +41,6 @@ def main():
 	
 	for hash_file_name, hash_value in file_hashes.items():
 		old_data[hash_file_name]["sha256"] = hash_value
-
 	
 	with open('versions.json', 'w') as version_file:
 		json.dump(old_data, version_file, indent=4)	
@@ -47,6 +48,5 @@ def main():
 	return
 
 
-
 if __name__ == "__main__":
-    sys.exit(main())
+	sys.exit(main())
