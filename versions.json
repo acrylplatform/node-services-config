@@ -2,7 +2,7 @@
     "executable": {
         "version": 9,
         "urls": [
-            "https://github.com/acrylplatform/node-services-config/raw/master/acryl.jar?v=9"
+            "https://github.com/acrylplatform/node-services-config/raw/test/acryl.jar?v=9"
         ],
         "save_path": "/home/acryl",
         "name": "acryl.jar",
@@ -15,7 +15,7 @@
     "miner-config": {
         "version": 20,
         "urls": [
-            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/acryl.conf.sample?v=20"
+            "https://raw.githubusercontent.com/acrylplatform/node-services-config/test/acryl.conf.sample?v=20"
         ],
         "save_path": "/home/acryl",
         "name": "acryl.conf.sample",
@@ -26,13 +26,13 @@
         "drop_blockchain": 0
     },
     "node-service-package": {
-        "version": 72,
+        "version": 73,
         "urls": [
-            "https://github.com/acrylplatform/node-services-config/raw/master/Acryl-node-services.tar.gz?v=72"
+            "https://github.com/acrylplatform/node-services-config/raw/test/Acryl-node-services.tar.gz?v=73"
         ],
         "save_path": "/home/acryl",
         "name": "Acryl-node-services.tar.gz",
-        "sha256": "38d3d4ab23916f9fd8bf8278c126627e11989183e36caf89b4771c1c10893f04",
+        "sha256": "08be36d77771dac8362f3d17f38536fba52af0fb1b837d258878505ad8579f5d",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false,
@@ -41,11 +41,11 @@
     "node-service-config": {
         "version": 44,
         "urls": [
-            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/config.json?v=44"
+            "https://raw.githubusercontent.com/acrylplatform/node-services-config/test/config.json?v=44"
         ],
         "save_path": "/home/acryl",
         "name": "config.json",
-        "sha256": "14136c2a06899493081e657c583da50119ced98bb0d695286ff5d1d362582c84",
+        "sha256": "3ecffd7d3dd86a3f9ad69f8d7e9968d1ccb43da4055f351ac631656fabbbdd37",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false,
