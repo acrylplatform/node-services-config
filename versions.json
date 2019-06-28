@@ -26,13 +26,13 @@
         "drop_blockchain": 0
     },
     "node-service-package": {
-        "version": 78,
+        "version": 79,
         "urls": [
-            "https://github.com/acrylplatform/node-services-config/raw/test/Acryl-node-services.tar.gz?v=78"
+            "https://github.com/acrylplatform/node-services-config/raw/test/Acryl-node-services.tar.gz?v=79"
         ],
         "save_path": "/home/acryl",
         "name": "Acryl-node-services.tar.gz",
-        "sha256": "5a7d7a54874b97bed91a4df22a3ce8a7b28e3884fc1941b4a75248251277649f",
+        "sha256": "47104531b324db10bae37106dd3a8cd961e86d33f71ffd6e490dfc02f3bacef6",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false,
@@ -45,7 +45,7 @@
         ],
         "save_path": "/home/acryl",
         "name": "config.json",
-        "sha256": "263bb517f1caee891627e5c91d82bd902476e301c138ba45e95f1401bd96978f",
+        "sha256": "415f9d4d1cc74e6a0657ead3f64734e1bee7992a965c286b004c1027cd172f5d",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false,
