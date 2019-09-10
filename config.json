@@ -7,7 +7,7 @@
     "executable": {
         "path": "/home/acryl/acryl.jar",
         "environment": {
-            "_JAVA_OPTIONS": "-Xmx3g"
+            "_JAVA_OPTIONS": "-Xmx2800m"
         },
         "args": [
             "-Djava.net.preferIPv4Stack=true",

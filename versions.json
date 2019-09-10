@@ -39,13 +39,13 @@
         "drop_blockchain": 0
     },
     "node-service-config": {
-        "version": 46,
+        "version": 47,
         "urls": [
-            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/config.json?v=46"
+            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/config.json?v=47"
         ],
         "save_path": "/home/acryl",
         "name": "config.json",
-        "sha256": "4e43d9340b4fedfa6c64ab62b95873efd990f3f42285742cbc41632b1e6e9186",
+        "sha256": "6c7ee89581ba416b6529f519181056b60197405d5624397deeb66e1f390be4b1",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false,
