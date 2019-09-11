@@ -7,11 +7,15 @@
     "executable": {
         "path": "/home/acryl/acryl.jar",
         "environment": {
-            "_JAVA_OPTIONS": "-Xmx2800m"
+            "_JAVA_OPTIONS": ""
         },
         "args": [
             "-Djava.net.preferIPv4Stack=true",
-            "-Dlogback.configurationFile=/home/acryl/logback.xml"
+            "-Dlogback.configurationFile=/home/acryl/logback.xml",
+            "-Xms2g",
+            "-Xmx2g",
+            "-XX:PermSize=128m",
+            "-XX:MaxPermSize=128m"
         ],
         "config_file": "/home/acryl/acryl.conf",
         "workdir": "/home/acryl/",
