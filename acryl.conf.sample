@@ -24,6 +24,7 @@ waves {
       "104.248.45.157:6861"
       "159.65.174.161:6861"
       "134.209.24.159:6861"
+      "90.189.170.37:6861"
     ]
 
     # Network address
@@ -212,7 +213,8 @@ waves {
 
   # Node's features
   features {
-    # supported = [2] # NG
+   supported = [7, 8, 9, 10]
+
   }
 
   # Nodes synchronization settings
