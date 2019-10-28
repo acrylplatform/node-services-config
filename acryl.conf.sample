@@ -213,8 +213,7 @@ waves {
 
   # Node's features
   features {
-   supported = [7, 8, 9, 10]
-
+   # supported = [9, 10, 11, 12, 13, 14, 15] # Many many new features
   }
 
   # Nodes synchronization settings
