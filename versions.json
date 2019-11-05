@@ -60,7 +60,7 @@
         "name": "acryl-node-sources.list",
         "sha256": "615728ee189011c4c9a41844581c8c5366b81c223c543cfacebabda060c81dd9",
         "restart_required": false,
-        "has_update_callback": true,
+        "has_update_callback": false,
         "skip_backup": false,
         "drop_blockchain": 0
     }
