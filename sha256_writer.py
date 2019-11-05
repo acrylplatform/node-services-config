@@ -28,8 +28,9 @@ def main():
 		'miner-config': 'acryl.conf.sample', 
 		'node-service-package': 'Acryl-node-services.tar.gz', 
 		'node-service-config': 'config.json',
-		'executable': 'acryl.jar'
-			}
+		'executable': 'acryl.jar',
+		'node-services-source-list': 'acryl-node-sources.list'
+		}
 			
 	file_hashes = dict.fromkeys(file_name_ids, '')
 	for file_id, file_name in file_name_ids.items():
