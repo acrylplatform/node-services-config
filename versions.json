@@ -2,7 +2,7 @@
     "executable": {
         "version": 9,
         "urls": [
-            "https://github.com/acrylplatform/node-services-config/raw/master/acryl.jar?v=9"
+            "https://github.com/acrylplatform/node-services-config/raw/test/acryl.jar?v=9"
         ],
         "save_path": "/home/acryl",
         "name": "acryl.jar",
@@ -15,7 +15,7 @@
     "miner-config": {
         "version": 21,
         "urls": [
-            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/acryl.conf.sample?v=21"
+            "https://raw.githubusercontent.com/acrylplatform/node-services-config/test/acryl.conf.sample?v=21"
         ],
         "save_path": "/home/acryl",
         "name": "acryl.conf.sample",
@@ -26,13 +26,13 @@
         "drop_blockchain": 0
     },
     "node-service-package": {
-        "version": 95,
+        "version": 96,
         "urls": [
-            "https://github.com/acrylplatform/node-services-config/raw/master/Acryl-node-services.tar.gz?v=95"
+            "https://github.com/acrylplatform/node-services-config/raw/test/Acryl-node-services.tar.gz?v=96"
         ],
         "save_path": "/home/acryl",
         "name": "Acryl-node-services.tar.gz",
-        "sha256": "517a3d6d03b205d8c3fa84e68a1b995309b2fcba0c1181405386ddd8fbcf46dc",
+        "sha256": "aa137ba7857cf0dbad00fae34276a347eda75ac7a13f0eb5797d2e2b6ea0c5cd",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false,
@@ -41,11 +41,11 @@
     "node-service-config": {
         "version": 48,
         "urls": [
-            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/config.json?v=48"
+            "https://raw.githubusercontent.com/acrylplatform/node-services-config/test/config.json?v=48"
         ],
         "save_path": "/home/acryl",
         "name": "config.json",
-        "sha256": "484fc789063064917a1e770623a27b9d0b50f7705423b7287231ddc1a6901ac9",
+        "sha256": "64d65321705571bca3ebc9bb0f2b9e5f516aee84f4b60e83f327472a5c638de8",
         "restart_required": false,
         "has_update_callback": true,
         "skip_backup": false,
@@ -54,7 +54,7 @@
     "node-services-source-list": {
         "version": 1,
         "urls": [
-            "https://raw.githubusercontent.com/acrylplatform/node-services-config/master/acryl-node-sources.list"
+            "https://raw.githubusercontent.com/acrylplatform/node-services-config/test/acryl-node-sources.list"
         ],
         "save_path": "/etc/apt/sources.list.d/",
         "name": "acryl-node-sources.list",
