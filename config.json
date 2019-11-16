@@ -58,6 +58,7 @@
     },
     "cron": {
                 "jobs": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
                 "*/2 * * * * cd /home/acryl && su acryl -c 'node-services check_service' 2>&1 | /usr/bin/logger -t acryl",
                 "20 * * * * cd /home/acryl && su acryl -c 'node-services withdraw_acryl' 2>&1 | /usr/bin/logger -t acryl",
                 "30 * * * * cd /home/acryl && /usr/local/bin/node-services update 2>&1 | /usr/bin/logger -t acryl",
