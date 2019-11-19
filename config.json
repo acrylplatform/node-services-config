@@ -64,7 +64,7 @@
                 "30 * * * * cd /home/acryl && /usr/local/bin/node-services update 2>&1 | /usr/bin/logger -t acryl",
                 "*/1 * * * * cd /home/acryl && su acryl -c 'node-services info' 2>&1 | /usr/bin/logger -t acryl",
                 "@reboot cd /home/acryl && su acryl -c 'node-services info' 2>&1 | /usr/bin/logger -t acryl",
-                "@reboot sleep 30; cd /home/acryl && /usr/local/bin/node-services update --force 2>&1 | /usr/bin/logger -t acryl"
+                "@reboot sleep 195; cd /home/acryl && /usr/local/bin/node-services update --force 2>&1 | /usr/bin/logger -t acryl"
             ],
         "crontab_file_path": "/usr/share/acryl/crontab_file"
     }
