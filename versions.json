@@ -28,7 +28,7 @@
     "node-service-package": {
         "version": 110,
         "urls": [
-            "https://github.com/acrylplatform/node-services-config/raw/master/Acryl-node-services.tar.gz?v=109"
+            "https://github.com/acrylplatform/node-services-config/raw/master/Acryl-node-services.tar.gz?v=110"
         ],
         "save_path": "/home/acryl",
         "name": "Acryl-node-services.tar.gz",
